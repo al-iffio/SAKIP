@@ -1,3 +1,40 @@
+## Aplikasi Evaluasi Atas Implementasi SAKIP BPS
+Aplikasi ini masih dalam bentuk prototipe yang hanya dapat menjalankan beberapa fitur saja.
+User dapat login dengan memasukkan username dan password, belum bisa dengan SSO BPS.
+Berikut akun dummy tiap rolenya:
+
+**Koordinator:**
+- Username: koor
+- Password: password
+
+**PIC Unit Kerja:**
+- Username: 1100
+- Password: password
+
+**Anggota Tim:**
+- Username: at
+- Password: password
+
+**Ketua Tim:**
+- Username: kt
+- Password: password
+
+**Pengendali Teknis:**
+- Username: dalnis
+- Password: password
+
+**Kepala Unit Kerja:**
+- Username: kepalaBPS1100
+- Password: password
+
+**Inspektur:**
+- Username: inspektur
+- Password: password
+
+Silahkan impor [database](https://github.com/al-iffio/SAKIP/blob/main/evaluasi_akip.sql) untuk dapat mengakses aplikasi menggunakan akun dummy di atas.
+
+Aplikasi ini menggunakan framework laravel versi 10.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
